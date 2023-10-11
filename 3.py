@@ -1,0 +1,6 @@
+a = input('Vpisi celo stevilo')
+b = input('Vpisi celo stevilo')
+c = input('Vpisi celo stevilo')
+print(f" {a} {b} {c}")
+print(f" {type(a)} {type(b)} {type(c)}")
+print(int(b)==int(a) and int(c)<=int(a))
